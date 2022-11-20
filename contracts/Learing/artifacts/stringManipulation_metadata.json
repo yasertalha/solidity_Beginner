@@ -1,0 +1,132 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_str1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_str2",
+						"type": "string"
+					}
+				],
+				"name": "concatinate",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_str1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_str2",
+						"type": "string"
+					}
+				],
+				"name": "isSame",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_str",
+						"type": "string"
+					}
+				],
+				"name": "length",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_str",
+						"type": "string"
+					}
+				],
+				"name": "reverse",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Learing/string.sol": "stringManipulation"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Learing/string.sol": {
+			"keccak256": "0x185520d0920ce1c247d26123c1fc82fa40c604cfba633d0d03f467d049be6927",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://15b05b6863ce75821cc74c14a609db694d7c0e328b360d716d35fd05208879da",
+				"dweb:/ipfs/QmYv7gL2vsFinhHCxsY7MqVkcHzu8YSwjYv693PUuQuQm1"
+			]
+		}
+	},
+	"version": 1
+}

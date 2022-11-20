@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "UserUp",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "age",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct arrays.User[4]",
+						"name": "",
+						"type": "tuple[4]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Learing/array.sol": "arrays"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Learing/array.sol": {
+			"keccak256": "0xbd4e5011fd3c14f0c8fea6576876b1009f09db7c2de2707df530c21788e77ef9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d6b14bc484d92af9fa48e04e8ed37337be49f54cf8ef1bd571494b8679dfb1a7",
+				"dweb:/ipfs/QmRjk68uw9muhuktJuCrgc1LMTuGd7XaB7LRGppEp2ZvYQ"
+			]
+		}
+	},
+	"version": 1
+}
