@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Learing/palindrome.sol": "palindrome"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Learing/palindrome.sol": {
+			"keccak256": "0x3c7bc79d85d630362383a8a6ba7a2cd42b9881ba507b82522c19667e224ee37f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3dc99821c96b98ca0a5c93628338fc0ed76aeb88ac779cee6ae556b185e2edcb",
+				"dweb:/ipfs/Qmb45yt3SPanQV9VJumvX7KmmqHcJ3PhGUmmqjgP72Ke3g"
+			]
+		}
+	},
+	"version": 1
+}

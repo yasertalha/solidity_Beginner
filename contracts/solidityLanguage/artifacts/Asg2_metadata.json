@@ -1,0 +1,238 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_str1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_str2",
+						"type": "string"
+					}
+				],
+				"name": "compareStr",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_str1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_str2",
+						"type": "string"
+					}
+				],
+				"name": "concatenate",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "contains",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_num",
+						"type": "int256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "insertArr",
+				"outputs": [
+					{
+						"internalType": "int256[]",
+						"name": "",
+						"type": "int256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256[4]",
+						"name": "_arr",
+						"type": "int256[4]"
+					}
+				],
+				"name": "largest",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256[]",
+						"name": "_arr",
+						"type": "int256[]"
+					}
+				],
+				"name": "reverseArray",
+				"outputs": [
+					{
+						"internalType": "int256[]",
+						"name": "",
+						"type": "int256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256[5]",
+						"name": "_arr",
+						"type": "int256[5]"
+					}
+				],
+				"name": "sortArray",
+				"outputs": [
+					{
+						"internalType": "int256[5]",
+						"name": "",
+						"type": "int256[5]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "studentStruct",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "age",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct Asg2.student",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256[]",
+						"name": "_arr",
+						"type": "int256[]"
+					}
+				],
+				"name": "sumArr",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/solidityLanguage/Asg2.sol": "Asg2"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/solidityLanguage/Asg2.sol": {
+			"keccak256": "0xd78e488e8c5265f79a8e4750ef1c67715ced3d76a1ee32911abb6ef78a0cc881",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4e33b78ebcb0b9f6f92c390a10275e91bac0bfe063af49d2b98f338033e257b9",
+				"dweb:/ipfs/QmTTk1CUDJEDG3A19h4vkPWHPBAkgV8pQBV9GFUpxQHvgj"
+			]
+		}
+	},
+	"version": 1
+}

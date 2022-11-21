@@ -6,32 +6,38 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "a",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "int256",
-						"name": "",
-						"type": "int256"
+						"internalType": "uint256",
+						"name": "_inp",
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"name": "Palindrome",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "str12",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "_inp",
+						"type": "uint256"
 					}
 				],
 				"name": "amstrong",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "pure",
@@ -67,23 +73,10 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "b",
-				"outputs": [
-					{
-						"internalType": "int256",
-						"name": "",
-						"type": "int256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "num",
+						"name": "_num1",
 						"type": "uint256"
 					}
 				],
@@ -144,6 +137,32 @@
 			{
 				"inputs": [
 					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "fibonnical",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "fibonnicalResult",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "int256",
 						"name": "num1",
 						"type": "int256"
@@ -160,6 +179,30 @@
 					}
 				],
 				"name": "greater",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "x",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "y",
+						"type": "int256"
+					}
+				],
+				"name": "multiple_with_no_Op",
 				"outputs": [
 					{
 						"internalType": "int256",
@@ -209,10 +252,48 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_inp",
+						"type": "uint256"
+					}
+				],
+				"name": "reverseInt",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_inp",
+						"type": "uint256"
+					}
+				],
+				"name": "sumOfDigits",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "swap",
 				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -244,11 +325,11 @@
 	},
 	"sources": {
 		"contracts/solidityLanguage/Asg1.sol": {
-			"keccak256": "0x3e7b9d372f62a9edfa30f5818aa2403baf92eaafc82c95e390d20d68094f5b8e",
+			"keccak256": "0xbc3312d4ebc38b79fa3fbacbe9aeaa8817a240b289c276ce05bb0e10e0148463",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3872a6169d752d78663059dcebac8f74864b14904d872187a23bf60626b72dd9",
-				"dweb:/ipfs/Qmdo8d5T2Cwb1oQNhD17CrZJZKU7aHuk4jeiLP1BeMG8Ap"
+				"bzz-raw://4510c80b099c2e50b6a728aa47afe0b7151710ae84bbe45e1d129c6624493f5e",
+				"dweb:/ipfs/QmP4SD7g2wNfHhTwSvYNUSwDSRAN2DQyPtt4pZgZJvfmHL"
 			]
 		}
 	},
