@@ -74,14 +74,45 @@ contract Asg2{
         }
     function studentStruct() external pure returns(student memory){
 
-        student memory std1 = student("yaser",29);
+        student memory std1 = student("yaser",1, 29);
         return std1;
     }
     //10
-    function studentStruct() external pure returns(student memory){
+    // function studentStruct() external pure returns(student memory){
 
-        student memory std1 = student("yaser",29);
-        return std1;
-    }
+    //     student memory std1 = student("yaser",29);
+    //     return std1;
+    // }
     //11
+    //mapping(address => uint[3]) array , [0]=maths , [1]=english, [2]=history
+    mapping(address => uint[3]) markReport;
+    function updateMarks(string calldata subject, uint mark) external {
+        if (keccak256(abi.encodePacked(subject))==keccak256(abi.encodePacked('maths')))     markReport[msg.sender][0] = mark;
+        if (keccak256(abi.encodePacked(subject))==keccak256(abi.encodePacked('english')))   markReport[msg.sender][1] = mark;
+        if (keccak256(abi.encodePacked(subject))==keccak256(abi.encodePacked('history')))   markReport[msg.sender][2] = mark;
+    }
+    function getMarks() external view returns(uint[3] memory){
+        return markReport[msg.sender];
+    }
+    //12
+    mapping (address => student) stdStruct;
+    function stdSetter(string calldata _name, uint _roll, uint _age) external {
+        stdStruct[msg.sender] = student(_name, _roll, _age);
+    }
+    function stdGetter() external view returns(student memory){
+        return stdStruct[msg.sender];
+    }
+    //13
+    mapping(address=> mapping(address=>bool)) private ownership;
+    function createOwnershipData () external{
+        ownership[0x5B38Da6a701c568545dCfcB03FcB875f56beddC4][0x5B38Da6a701c568545dCfcB03FcB875f56beddC4] = false;
+        ownership[0x5B38Da6a701c568545dCfcB03FcB875f56beddC4][0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2] = false;
+    }
+    function transferOwnership () external{
+        ownership[0x5B38Da6a701c568545dCfcB03FcB875f56beddC4][msg.sender]=true;
+    }
+    function ownershipStatus () view external returns(bool){
+       return ownership[msg.sender][msg.sender];
+    }
+
 }

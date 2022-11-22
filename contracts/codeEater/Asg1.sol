@@ -140,7 +140,7 @@ contract Asg1{
         //recertion performed
         if (x==0||y==0) return 0;
         if (y>0) return x + multiple_with_no_Op(x,y-1);
-        if (y<0) return -( x + multiple_with_no_Op(x,-y) );
+        if (y<0) return -( x + multiple_with_no_Op(x,y) );
         //1+(1+(0))=2
     }
 }

@@ -73,6 +73,26 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "createOwnershipData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getMarks",
+				"outputs": [
+					{
+						"internalType": "uint256[3]",
+						"name": "",
+						"type": "uint256[3]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "int256",
@@ -116,6 +136,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "ownershipStatus",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "int256[]",
@@ -155,6 +188,59 @@
 			},
 			{
 				"inputs": [],
+				"name": "stdGetter",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "rollNumber",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "age",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct Asg2.student",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_roll",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					}
+				],
+				"name": "stdSetter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "studentStruct",
 				"outputs": [
 					{
@@ -163,6 +249,11 @@
 								"internalType": "string",
 								"name": "name",
 								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "rollNumber",
+								"type": "uint256"
 							},
 							{
 								"internalType": "uint256",
@@ -196,6 +287,31 @@
 				],
 				"stateMutability": "pure",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "transferOwnership",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "subject",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "mark",
+						"type": "uint256"
+					}
+				],
+				"name": "updateMarks",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -226,11 +342,11 @@
 	},
 	"sources": {
 		"contracts/solidityLanguage/Asg2.sol": {
-			"keccak256": "0xd78e488e8c5265f79a8e4750ef1c67715ced3d76a1ee32911abb6ef78a0cc881",
+			"keccak256": "0x87d38b86ae8b2c2481632720eb1910dacccf7bb89491b78d993a2fe8a9a8ddd6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4e33b78ebcb0b9f6f92c390a10275e91bac0bfe063af49d2b98f338033e257b9",
-				"dweb:/ipfs/QmTTk1CUDJEDG3A19h4vkPWHPBAkgV8pQBV9GFUpxQHvgj"
+				"bzz-raw://2eb7517cf9ea74e5ed3f9bbec171e5e91d673f1c3f5d6b76abbd84738e58ef5c",
+				"dweb:/ipfs/QmRZPztfpVHcy4pdyTsPAFPh9tHdVt1TqbYPYbuGtenMFd"
 			]
 		}
 	},

@@ -310,7 +310,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/solidityLanguage/Asg1.sol": "Asg1"
+			"contracts/codeEater/Asg1.sol": "Asg1"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -324,12 +324,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/solidityLanguage/Asg1.sol": {
-			"keccak256": "0xbc3312d4ebc38b79fa3fbacbe9aeaa8817a240b289c276ce05bb0e10e0148463",
+		"contracts/codeEater/Asg1.sol": {
+			"keccak256": "0x0569c34ffbff34c750d6b1f638df913139492e606cbf6569cd858be6e947c282",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4510c80b099c2e50b6a728aa47afe0b7151710ae84bbe45e1d129c6624493f5e",
-				"dweb:/ipfs/QmP4SD7g2wNfHhTwSvYNUSwDSRAN2DQyPtt4pZgZJvfmHL"
+				"bzz-raw://93ae9580d8fcb910dff017b45d0353c126d9a395e4ba25823ed618ffc2e866c0",
+				"dweb:/ipfs/QmZuRdHz3fAcXCNuC1688aQ2seeMLJg2NGJCLGuq1ATStA"
 			]
 		}
 	},
