@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.17+commit.8df45f5f"
+		"version": "0.8.7+commit.e28d00a7"
 	},
 	"language": "Solidity",
 	"output": {
@@ -325,11 +325,11 @@
 	},
 	"sources": {
 		"contracts/codeEater/Asg1.sol": {
-			"keccak256": "0x0569c34ffbff34c750d6b1f638df913139492e606cbf6569cd858be6e947c282",
+			"keccak256": "0x33691fbd0ab3714373ae49c7f894b6d1822e6d939cda5e7960f7e03d06430cbe",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://93ae9580d8fcb910dff017b45d0353c126d9a395e4ba25823ed618ffc2e866c0",
-				"dweb:/ipfs/QmZuRdHz3fAcXCNuC1688aQ2seeMLJg2NGJCLGuq1ATStA"
+				"bzz-raw://84addd503ae9b46188af0845ca3cb6f002651fa9f7fc6062c2de7effecd0607b",
+				"dweb:/ipfs/QmNpHrVdceix5LmPKkLGuQwk2qVCDHDELbcQxknAzsedTp"
 			]
 		}
 	},

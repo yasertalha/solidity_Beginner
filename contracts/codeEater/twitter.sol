@@ -40,4 +40,9 @@ contract twitter{
         conversation[_from].push(Message(nextMsgId, _from, _to, _content, block.timestamp));
         nextMsgId++;
     }
+
+    //Owner tweet here
+    function tweet(string calldata content){
+        tweet(msg.sender, )
+    }
 }
