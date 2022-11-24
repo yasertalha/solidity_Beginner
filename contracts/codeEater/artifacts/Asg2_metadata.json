@@ -6,6 +6,32 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "GetHouseVal",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "addName",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "string",
@@ -81,12 +107,32 @@
 			},
 			{
 				"inputs": [],
+				"name": "delName",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "getMarks",
 				"outputs": [
 					{
 						"internalType": "uint256[3]",
 						"name": "",
 						"type": "uint256[3]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getName",
+				"outputs": [
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
 					}
 				],
 				"stateMutability": "view",
@@ -165,6 +211,13 @@
 					}
 				],
 				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setHouseVal",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -289,6 +342,35 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "tenStudentsRecord",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "rollNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "transferOwnership",
 				"outputs": [],
@@ -312,6 +394,29 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_roll",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					}
+				],
+				"name": "updateTenStudentsRecord",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -327,7 +432,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/solidityLanguage/Asg2.sol": "Asg2"
+			"contracts/codeEater/Asg2.sol": "Asg2"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -341,12 +446,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/solidityLanguage/Asg2.sol": {
-			"keccak256": "0x87d38b86ae8b2c2481632720eb1910dacccf7bb89491b78d993a2fe8a9a8ddd6",
+		"contracts/codeEater/Asg2.sol": {
+			"keccak256": "0x309ff83a56d38785e7ef93d0bd41a1ebc0a442b8c4c6be3d796e9f325ac9c7a6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2eb7517cf9ea74e5ed3f9bbec171e5e91d673f1c3f5d6b76abbd84738e58ef5c",
-				"dweb:/ipfs/QmRZPztfpVHcy4pdyTsPAFPh9tHdVt1TqbYPYbuGtenMFd"
+				"bzz-raw://c39c03fc740364654f2809914dd3ac383a1102fb3fa4a53400c97f92eef645c5",
+				"dweb:/ipfs/QmaLPkkBwfjbvf4PWiRiWtNWJUHvbzBY8vwxjVnoDdR66q"
 			]
 		}
 	},

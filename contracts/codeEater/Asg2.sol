@@ -78,11 +78,11 @@ contract Asg2{
         return std1;
     }
     //10
-    // function studentStruct() external pure returns(student memory){
-
-    //     student memory std1 = student("yaser",29);
-    //     return std1;
-    // }
+    student[10] public tenStudentsRecord;
+    
+    function updateTenStudentsRecord(string calldata _name, uint _roll, uint _age) external{
+        tenStudentsRecord[_roll] = student(_name, _roll, _age);
+    }
     //11
     //mapping(address => uint[3]) array , [0]=maths , [1]=english, [2]=history
     mapping(address => uint[3]) markReport;
@@ -114,5 +114,35 @@ contract Asg2{
     function ownershipStatus () view external returns(bool){
        return ownership[msg.sender][msg.sender];
     }
+    //14
+    string[] names;
+    function addName(string memory _name) external {
+        names.push(_name);
+    }
+    function delName() external {
+        names.pop();
+    }
+    function getName() view external returns(string[] memory){
+        return names;
+    }
+    // 15
+    enum HOUSE{SMALL, MEDIUM, LARGE}
+    HOUSE house;
+    function setHouseVal() external{
+        house = HOUSE.MEDIUM;
+    }
+
+    function GetHouseVal() external view returns(string memory){
+        if( house == HOUSE.SMALL){
+            return "SMALL";
+        }
+        if( house == HOUSE.LARGE){
+            return "LARGE";
+        }
+        else{
+            return "MEDIUM";
+        }
+    }
+
 
 }
