@@ -1,0 +1,124 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_a",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "_b",
+						"type": "int256"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBook",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_length",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_breath",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_height",
+						"type": "uint256"
+					}
+				],
+				"name": "setBook",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/codeEater/class.sol": "Book"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/codeEater/class.sol": {
+			"keccak256": "0x1372489b036adf335abc36597602004836ac634722fe461b1891c1bc2b8fd633",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a8a37042f7a974c9469bde9731bc0f2f38d62eac5babf795994c32d1cd624380",
+				"dweb:/ipfs/QmaLF3Boh49us2XAX5Bv4NLS2mFVD93GiCLct4NJo2Hdat"
+			]
+		},
+		"contracts/codeEater/polymorphism.sol": {
+			"keccak256": "0xb00b747920152a8c6a9d22f64a6b711e734c91e927cb820c0910e9e93158a3aa",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://141c7f022aa046ed3a4367b398378987e862645c873da5268f3476607546af2a",
+				"dweb:/ipfs/QmWwyQphKUFYQ65o5qGL8NdHCSGWuJMtPDVHHgRZEUfWpz"
+			]
+		}
+	},
+	"version": 1
+}

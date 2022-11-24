@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_a",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "_b",
+						"type": "int256"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/codeEater/polymorphism.sol": "Poly"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/codeEater/polymorphism.sol": {
+			"keccak256": "0xb00b747920152a8c6a9d22f64a6b711e734c91e927cb820c0910e9e93158a3aa",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://141c7f022aa046ed3a4367b398378987e862645c873da5268f3476607546af2a",
+				"dweb:/ipfs/QmWwyQphKUFYQ65o5qGL8NdHCSGWuJMtPDVHHgRZEUfWpz"
+			]
+		}
+	},
+	"version": 1
+}

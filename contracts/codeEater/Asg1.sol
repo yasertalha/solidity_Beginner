@@ -4,24 +4,24 @@ pragma solidity ^0.8.0;
 
 contract Asg1{
     mapping(string=>uint[] ) holder;
-    //1
+//1
     function cube(uint _num1) external pure returns(uint){
         return _num1**2;
     }
-    //2
+//2
     function oddOrEven(int num) pure public returns(uint){
         if(num%2==0)  return 1;
         else return 0;
     }
-    //3
+//3
     function avg(uint num1, uint num2, uint num3) public pure returns(uint){
         return ( num1+ num2+ num3)/3;
     }
-    //5
+//5
     function expo(uint x, uint y) pure public returns(uint){
         return x**y;
     }
-    //6
+//6
     function swap() pure public{
         // swap a and b
         int  a = 1;
@@ -29,7 +29,7 @@ contract Asg1{
         
         (a, b) = (b, a);
     }
-    //7
+//7
     function prime(int num) public pure returns(int){
         // return 1 if prime else 0
         for(int i = 2; i < num; i++){
@@ -77,7 +77,7 @@ contract Asg1{
         }
         return reversed == _inp ? 1 : 0;
     }    
-    //11
+//11
     function reverseInt(uint _inp) external pure returns(uint){
         uint reversed;
         uint tmp = _inp;
@@ -88,7 +88,7 @@ contract Asg1{
         }
         return reversed;
     }
-    //12
+//12
     function sumOfDigits(uint _inp) external pure returns(uint){
         uint temp = _inp;
         uint _inpSum = 0 ;
@@ -101,7 +101,7 @@ contract Asg1{
         return _inpSum;
 
     }
-    //13
+//13
     function factorial(uint num) public pure returns(uint){
         uint temp = num;
         uint res=1;
@@ -112,7 +112,7 @@ contract Asg1{
         }
         return res;
     }
-    //14
+//14
     function fibonnical(uint num) external {
         require(num!=0,"not A valid number");
         uint tmp = num;
@@ -126,7 +126,7 @@ contract Asg1{
 
     }
     function fibonnicalResult() external view returns(uint){
-
+        //112358 is a fiboniccal order
         for (uint i=0; i<holder["numArr"].length-2; i++){
             if(holder["numArr"][i]!=holder["numArr"][i+1]+holder["numArr"][i+2]){
                 return 0;
@@ -135,12 +135,5 @@ contract Asg1{
 
         return 1;
     }
-    //15
-    function multiple_with_no_Op(int x,int y) public pure returns(int){
-        //recertion performed
-        if (x==0||y==0) return 0;
-        if (y>0) return x + multiple_with_no_Op(x,y-1);
-        if (y<0) return -( x + multiple_with_no_Op(x,y-1) );
-        //1+(1+(0))=2
-    }
+
 }

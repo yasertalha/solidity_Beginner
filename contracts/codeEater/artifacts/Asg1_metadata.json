@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.17+commit.8df45f5f"
 	},
 	"language": "Solidity",
 	"output": {
@@ -193,30 +193,6 @@
 				"inputs": [
 					{
 						"internalType": "int256",
-						"name": "x",
-						"type": "int256"
-					},
-					{
-						"internalType": "int256",
-						"name": "y",
-						"type": "int256"
-					}
-				],
-				"name": "multiple_with_no_Op",
-				"outputs": [
-					{
-						"internalType": "int256",
-						"name": "",
-						"type": "int256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "int256",
 						"name": "num",
 						"type": "int256"
 					}
@@ -325,11 +301,11 @@
 	},
 	"sources": {
 		"contracts/codeEater/Asg1.sol": {
-			"keccak256": "0x33691fbd0ab3714373ae49c7f894b6d1822e6d939cda5e7960f7e03d06430cbe",
+			"keccak256": "0xfbd1670f0ed4bc0633132eae765e83dd13ac5b9155ecd3f46f00274593f08cd8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://84addd503ae9b46188af0845ca3cb6f002651fa9f7fc6062c2de7effecd0607b",
-				"dweb:/ipfs/QmNpHrVdceix5LmPKkLGuQwk2qVCDHDELbcQxknAzsedTp"
+				"bzz-raw://507bf132e1fae00ae1baea586c35eda947ddfccdd889c5bdb4707e0761cfff3a",
+				"dweb:/ipfs/QmYP52wCYTijsGfxtaVVQNsRSsRPAb7yQWyqTJFMVKRzVP"
 			]
 		}
 	},
