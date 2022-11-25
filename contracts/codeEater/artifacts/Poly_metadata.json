@@ -11,6 +11,25 @@
 						"internalType": "int256",
 						"name": "_a",
 						"type": "int256"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_a",
+						"type": "int256"
 					},
 					{
 						"internalType": "int256",
@@ -58,11 +77,11 @@
 	},
 	"sources": {
 		"contracts/codeEater/polymorphism.sol": {
-			"keccak256": "0xb00b747920152a8c6a9d22f64a6b711e734c91e927cb820c0910e9e93158a3aa",
+			"keccak256": "0xaae51a4b3fa97285a4382b6e7564b9f51d3d1b136d1792c96b991f93bbb11e54",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://141c7f022aa046ed3a4367b398378987e862645c873da5268f3476607546af2a",
-				"dweb:/ipfs/QmWwyQphKUFYQ65o5qGL8NdHCSGWuJMtPDVHHgRZEUfWpz"
+				"bzz-raw://b096c45ed5d261dc4de9c358e891ab485341874f2304605c2e0cc0dd6fbbec6f",
+				"dweb:/ipfs/QmTBfgL1PSn3pSXWe67N7Tkep1iP3uwa4pG4ZmtPTjARtd"
 			]
 		}
 	},

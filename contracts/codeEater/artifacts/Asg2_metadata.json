@@ -139,6 +139,36 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "getTenStudentsRecord",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "rollNumber",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "age",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct Asg2.student[10]",
+						"name": "",
+						"type": "tuple[10]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "int256",
@@ -216,6 +246,29 @@
 			{
 				"inputs": [],
 				"name": "setHouseVal",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_roll",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					}
+				],
+				"name": "setTenStudentsRecord",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -394,29 +447,6 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_roll",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_age",
-						"type": "uint256"
-					}
-				],
-				"name": "updateTenStudentsRecord",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -447,11 +477,11 @@
 	},
 	"sources": {
 		"contracts/codeEater/Asg2.sol": {
-			"keccak256": "0x309ff83a56d38785e7ef93d0bd41a1ebc0a442b8c4c6be3d796e9f325ac9c7a6",
+			"keccak256": "0x2806320e4c3c61e6acfb0bf99216fa6f32ab4dcf330579bdbe11b87841e9775e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c39c03fc740364654f2809914dd3ac383a1102fb3fa4a53400c97f92eef645c5",
-				"dweb:/ipfs/QmaLPkkBwfjbvf4PWiRiWtNWJUHvbzBY8vwxjVnoDdR66q"
+				"bzz-raw://cd0e0fecf83222f3701623af48e6650e6141c56adaba099d380199debc610fc3",
+				"dweb:/ipfs/QmQCt9CYAURNKiaHLmYXez9SH9kz6Exq3mV6FiWFAe7jAw"
 			]
 		}
 	},
