@@ -4,7 +4,21 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "input",
+						"type": "uint256"
+					}
+				],
+				"name": "find",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +47,11 @@
 	},
 	"sources": {
 		"contracts/Learing/palindrome.sol": {
-			"keccak256": "0x3c7bc79d85d630362383a8a6ba7a2cd42b9881ba507b82522c19667e224ee37f",
+			"keccak256": "0x86d949aea5051b7ead03ad23f9a3552bf9345c26d926594d8299431314de2c6d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3dc99821c96b98ca0a5c93628338fc0ed76aeb88ac779cee6ae556b185e2edcb",
-				"dweb:/ipfs/Qmb45yt3SPanQV9VJumvX7KmmqHcJ3PhGUmmqjgP72Ke3g"
+				"bzz-raw://b07ffed521c8035dbb75dc9864ae33c518b19e3a0980a59b146e93269a2693a6",
+				"dweb:/ipfs/QmQDap9QpGgLjAXCBPWJ6quMNaWBZSyGg5XXW2zsqtCdkB"
 			]
 		}
 	},
