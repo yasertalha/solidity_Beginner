@@ -301,11 +301,11 @@
 	},
 	"sources": {
 		"contracts/codeEater/Asg1.sol": {
-			"keccak256": "0x686014074d987f5fa9b4ef29cdc07d050b34c7914f8b27864c388bff20764aa4",
+			"keccak256": "0xdba686001d18c05a4e1652ec256886afae244c62ccf99c9d7db93b06f1e0b3a9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2ab021ca4f8c4e21b2833651eb91bd5f9ba4a179e98583e90c4ab6567b920e9c",
-				"dweb:/ipfs/QmUGHGHBy3QBMLuE9Lkh9aqAJJAwv3gMW93gBWFqeKA2GX"
+				"bzz-raw://7f00850f806f04236dc619432d7f7ce3b4b7f84efc1e6d8746ca3865733a1112",
+				"dweb:/ipfs/QmYu3kB4goGRixyW1FowHrWgARV3CzHHycf399hCWzRbCh"
 			]
 		}
 	},
