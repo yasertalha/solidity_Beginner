@@ -11,9 +11,9 @@ contract Asg1 {
     }
 
     //2
-    function oddOrEven(int256 num) public pure returns (uint256) {
-        if (num % 2 == 0) return 1;
-        else return 0;
+    function oddOrEven(int256 num) public pure returns (string memory) {
+        if (num % 2 == 0) return "even";
+        else return "odd";
     }
 
     //3
@@ -158,3 +158,5 @@ contract Asg1 {
         return 1;
     }
 }
+//0xf4C1170df242aFA6F7C6C69D21Cffb26E0EE8f76
+//0xf4c1170df242afa6f7c6c69d21cffb26e0ee8f76

@@ -200,9 +200,9 @@
 				"name": "oddOrEven",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
 				"stateMutability": "pure",
@@ -301,11 +301,11 @@
 	},
 	"sources": {
 		"contracts/codeEater/Asg1.sol": {
-			"keccak256": "0xfbd1670f0ed4bc0633132eae765e83dd13ac5b9155ecd3f46f00274593f08cd8",
+			"keccak256": "0x686014074d987f5fa9b4ef29cdc07d050b34c7914f8b27864c388bff20764aa4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://507bf132e1fae00ae1baea586c35eda947ddfccdd889c5bdb4707e0761cfff3a",
-				"dweb:/ipfs/QmYP52wCYTijsGfxtaVVQNsRSsRPAb7yQWyqTJFMVKRzVP"
+				"bzz-raw://2ab021ca4f8c4e21b2833651eb91bd5f9ba4a179e98583e90c4ab6567b920e9c",
+				"dweb:/ipfs/QmUGHGHBy3QBMLuE9Lkh9aqAJJAwv3gMW93gBWFqeKA2GX"
 			]
 		}
 	},
