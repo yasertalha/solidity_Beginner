@@ -52,6 +52,30 @@
 				],
 				"stateMutability": "pure",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_num",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256[]",
+						"name": "_arr",
+						"type": "int256[]"
+					}
+				],
+				"name": "find",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -82,11 +106,11 @@
 	},
 	"sources": {
 		"contracts/revision/Assg_2.sol": {
-			"keccak256": "0xcdf724a8096de6f8a907021f6a9fee5e5f89d41c3da2456e1ba43a410d44fe26",
+			"keccak256": "0x19c843d863db0e4fed1d9473458c76b1262a31009665a6152da0ce1c903504db",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7241d61e4f63f2eaff492b4f00a2417cbbdbbcdab8e5d6dcf775622d8fe51dc2",
-				"dweb:/ipfs/QmcHnbVAscJ9XuUvv8fbAV7t3e7oCATmU8Bsgx5s26eyw5"
+				"bzz-raw://6c51f615c6b1c96c4de06f5b5290d8a843f2f9e5aece87b5996d7c808e42c274",
+				"dweb:/ipfs/QmV5oQP9aoTfTqNPhQjpug135dZ3N48MHaX1b2aFTZh2Lx"
 			]
 		}
 	},

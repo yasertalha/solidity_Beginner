@@ -15,14 +15,14 @@ contract Assign_2{
     }
 
     //3 find int in array
-    function find(uint256 _num) external pure returns (bool) {
-        uint8[5] memory arr = [1, 2, 3, 4, 5];
-        for (uint256 i = 0; i < arr.length; i++) {
-            if (arr[i] == _num) {
-                return true;
+    function find(int _num, int[] memory _arr) external pure returns (bool) {
+        bool isFound;
+        for (uint i=0; i<_arr.length; i++){
+            if(_arr[i]==_num){
+                isFound = true;
             }
         }
-        return false;
+        return isFound;
     }
 
 
