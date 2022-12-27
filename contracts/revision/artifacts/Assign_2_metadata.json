@@ -76,6 +76,25 @@
 				],
 				"stateMutability": "pure",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "_arr",
+						"type": "uint256[]"
+					}
+				],
+				"name": "largestInArr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -106,11 +125,11 @@
 	},
 	"sources": {
 		"contracts/revision/Assg_2.sol": {
-			"keccak256": "0x19c843d863db0e4fed1d9473458c76b1262a31009665a6152da0ce1c903504db",
+			"keccak256": "0x665d6a3d4be9bf3abb62b72ff54d8c472badd6b3d0139859a1cddc0e84d7d127",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6c51f615c6b1c96c4de06f5b5290d8a843f2f9e5aece87b5996d7c808e42c274",
-				"dweb:/ipfs/QmV5oQP9aoTfTqNPhQjpug135dZ3N48MHaX1b2aFTZh2Lx"
+				"bzz-raw://3f5b4f9476c5485489b08a5140aa369c5de8f7798af0090ece5e2a9d2872ef52",
+				"dweb:/ipfs/QmSK1uySq38RkqHw2QApmsHsXrLv6P71pTYsWnDeieayGE"
 			]
 		}
 	},

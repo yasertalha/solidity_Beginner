@@ -25,5 +25,13 @@ contract Assign_2{
         return isFound;
     }
 
+    //4 Largest in array
+    function largestInArr(uint[] memory _arr) pure external returns(uint){
+        uint res;
+        for(uint i =0; i<_arr.length;i++){
+            
+        }
+    }
+
 
 }
