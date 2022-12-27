@@ -49,27 +49,31 @@ contract Assg_1{
         return 1;
     }
 
-    //8
+    //find input is amstrong , 371 => 3*3 + 7*3 + 1*3 = 371.
     function amstrong(uint256 _inp) public pure returns (uint256) {
-        //find length of input
-        uint256 temp = _inp;
-        uint256 _inpLength = 0;
-        uint256 calculatedInput = 0;
+        require(_inp!=0,"not valid input");
+      //find input length
+      uint256 temp = _inp;
+      uint256 calculatedInput = 0;
 
-        while (temp != 0) {
-            _inpLength++;
-            temp /= 10;
-        }
-        require(_inpLength != 0, "not a valid number");
-        temp = _inp; //restore temp
-        //multiple each digit in number with length
+      uint256 inpLength = 0;
+      while(temp!=0){
+        temp /= 10;
+        inpLength++;
+      }
+
+      //re-initialize temp
+      temp = _inp;
+
+      //multiply each number in input with input length and add every multiplication res
+      
         while (temp != 0) {
             uint256 lastDig = temp % 10; //get last number
-            calculatedInput = calculatedInput + lastDig**_inpLength;
+            calculatedInput = calculatedInput + lastDig**inpLength;
             temp /= 10;
         }
-        return _inp == calculatedInput ? 1 : 0;
+      return calculatedInput == _inp ? 1 : 0;
+
     }
 
-    //9
 }
