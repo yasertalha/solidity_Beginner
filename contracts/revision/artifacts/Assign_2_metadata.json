@@ -189,9 +189,9 @@
 				"name": "myHouse",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "enum Assign_2.HOUSE",
 						"name": "",
-						"type": "string"
+						"type": "uint8"
 					}
 				],
 				"stateMutability": "view",
@@ -428,11 +428,11 @@
 	},
 	"sources": {
 		"contracts/revision/Assg_2.sol": {
-			"keccak256": "0x04eadf017b1adae9dc73660272c4db5cc77a987b08d06ba4bcd4ff0732029349",
+			"keccak256": "0x1ce0e50bf5e67003643e396871b09909748332fcdc4691d85ca4717db9d0f97b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7e200477ced4b68a0f96178318300459a9ace96d8d399ac37e1cc618e00416c9",
-				"dweb:/ipfs/QmXwMWb2g2MjQeZuFaVrgRXjd17sZAuSfkH65DZY9Ss6D7"
+				"bzz-raw://f9e5b69afb07b71b15152af87d0c0170957f6a559d742fd82cc3efb6b999b4c3",
+				"dweb:/ipfs/QmQpeaEwNABqspnX5LDjkRXxgT3Rk8EukJ3rwA5Uayd2az"
 			]
 		}
 	},

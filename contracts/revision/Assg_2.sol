@@ -126,15 +126,15 @@ contract Assign_2{
         houseSize = val;
     }
 
-    function myHouse() view external returns(string memory){
+    function myHouse() view external returns(HOUSE){
         
         if (houseSize == HOUSE.SMALL) {
-            return "SMALL";
+            return HOUSE.SMALL;
         }
         if (houseSize == HOUSE.LARGE) {
-            return "LARGE";
+            return HOUSE.LARGE;
         } else {
-            return "MEDIUM";
+            return HOUSE.LARGE;
         }
     }
 
