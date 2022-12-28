@@ -8,6 +8,25 @@
 			{
 				"inputs": [
 					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "_strArr",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "string",
 						"name": "_str1",
 						"type": "string"
@@ -78,6 +97,75 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "get10Std",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "int256",
+								"name": "roll",
+								"type": "int256"
+							},
+							{
+								"internalType": "int256",
+								"name": "age",
+								"type": "int256"
+							}
+						],
+						"internalType": "struct Assign_2.Student[10]",
+						"name": "",
+						"type": "tuple[10]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCurntOwner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getMark",
+				"outputs": [
+					{
+						"internalType": "uint256[3]",
+						"name": "",
+						"type": "uint256[3]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "houseSize",
+				"outputs": [
+					{
+						"internalType": "enum Assign_2.HOUSE",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256[]",
@@ -94,6 +182,221 @@
 					}
 				],
 				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myHouse",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "roll",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "age",
+						"type": "int256"
+					}
+				],
+				"name": "newStudent",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "int256",
+								"name": "roll",
+								"type": "int256"
+							},
+							{
+								"internalType": "int256",
+								"name": "age",
+								"type": "int256"
+							}
+						],
+						"internalType": "struct Assign_2.Student",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "ownership",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "popStrArr",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pushStrArr",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "resetOwnership",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum Assign_2.HOUSE",
+						"name": "val",
+						"type": "uint8"
+					}
+				],
+				"name": "setHouseSize",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "Math",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "English",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "History",
+						"type": "uint256"
+					}
+				],
+				"name": "setMark",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "store10",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "roll",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "age",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "roll",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "age",
+						"type": "int256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "str10Std",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newAdr",
+						"type": "address"
+					}
+				],
+				"name": "transferownership",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -125,11 +428,11 @@
 	},
 	"sources": {
 		"contracts/revision/Assg_2.sol": {
-			"keccak256": "0x665d6a3d4be9bf3abb62b72ff54d8c472badd6b3d0139859a1cddc0e84d7d127",
+			"keccak256": "0x04eadf017b1adae9dc73660272c4db5cc77a987b08d06ba4bcd4ff0732029349",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3f5b4f9476c5485489b08a5140aa369c5de8f7798af0090ece5e2a9d2872ef52",
-				"dweb:/ipfs/QmSK1uySq38RkqHw2QApmsHsXrLv6P71pTYsWnDeieayGE"
+				"bzz-raw://7e200477ced4b68a0f96178318300459a9ace96d8d399ac37e1cc618e00416c9",
+				"dweb:/ipfs/QmXwMWb2g2MjQeZuFaVrgRXjd17sZAuSfkH65DZY9Ss6D7"
 			]
 		}
 	},
