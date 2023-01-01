@@ -1,0 +1,86 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "",
+			"opcodes": "",
+			"sourceMap": ""
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "",
+			"opcodes": "",
+			"sourceMap": ""
+		},
+		"gasEstimates": null,
+		"methodIdentifiers": {
+			"getScholarship(int128,bool,bool)": "03ab7a34"
+		}
+	},
+	"abi": [
+		{
+			"inputs": [
+				{
+					"internalType": "int128",
+					"name": "marksPercentage",
+					"type": "int128"
+				},
+				{
+					"internalType": "bool",
+					"name": "isVillage",
+					"type": "bool"
+				},
+				{
+					"internalType": "bool",
+					"name": "isPoor",
+					"type": "bool"
+				}
+			],
+			"name": "getScholarship",
+			"outputs": [
+				{
+					"internalType": "int128",
+					"name": "",
+					"type": "int128"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		}
+	]
+}
